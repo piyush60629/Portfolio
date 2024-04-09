@@ -2,11 +2,11 @@ import comp_icon from "../assets/vlogger.gif";
 
 const Experience = () => {
   return (
-    <div className="">
+    <div className=" p-4">
       <div className="flex flex-1 justify-center items-center">
         <h1 className="text-6xl font-bold mb-4 orbitron">Experience</h1>
       </div>
-      <div className="mb-8 flex flex-1 container justify-center items-center">
+      <div className="mb-8 flex flex-1 container justify-center items-center max-sm:flex-col">
         <div className="">
           <img src={comp_icon} width={460} alt="" />
         </div>

@@ -10,13 +10,13 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
+      
         {/* <Cube /> */}
         <Experience />
-        <Projects />
+        <Projects  />
         <Education />
         <TechnicalSkills />
-      </div>
+      
     </div>
   );
 };
