@@ -2,7 +2,7 @@ import edu_image from "../assets/education.gif";
 
 const Education = () => {
   return (
-    <>
+    <section id="education">
       <div className="p-6 mt-4">
         <h1 className="text-6xl orbitron mb-4 flex flex-1 justify-center items-center">Education</h1>
         <div className="flex flex-1 max-sm:flex-col justify-evenly items-center">
@@ -26,7 +26,7 @@ const Education = () => {
         </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

@@ -2,6 +2,7 @@ import skill_image from "../assets/wired-gradient-680-it-developer.gif";
 
 const TechnicalSkills = () => {
   return (
+    <section id="technicalskills">
     <div className="p-6 mt-4 bg-black text-white">
       <h1 className="text-6xl orbitron flex flex-1 justify-center items-center ">
         Technical Skills
@@ -51,6 +52,7 @@ const TechnicalSkills = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

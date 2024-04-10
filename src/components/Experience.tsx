@@ -2,7 +2,8 @@ import comp_icon from "../assets/vlogger.gif";
 
 const Experience = () => {
   return (
-    <div className=" p-4">
+    <section id="experience">
+    <div className="p-4">
       <div className="flex flex-1 justify-center items-center">
         <h1 className="text-6xl font-bold mb-4 orbitron">Experience</h1>
       </div>
@@ -67,6 +68,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import projectgif from '../assets/prog.gif'
 
 const Projects = () => {
   return (
-    <>
+    <section id='projects'>
     <div className='bg-black text-white p-6'>
     <div>
       <h1 className="text-6xl orbitron font-bold mb-4 flex flex-1 justify-center items-center">
@@ -65,7 +65,7 @@ const Projects = () => {
       </div>
     </div>
     </div>
-    </>
+    </section>
   );
 };
 
